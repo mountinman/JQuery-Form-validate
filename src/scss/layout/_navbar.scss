@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: $main-color;
+
+  .header__main-nav {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    .header__main-nav-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        padding: 27px 25px;
+        font-size: 21px;
+        color: whitesmoke;
+      }
+      a:hover {
+        background: $hover;
+      }
+    }
+  }
+  .header--logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    a {
+      text-decoration: none;
+      color: $logo;
+    }
+  }
+  
+}
