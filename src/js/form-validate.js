@@ -1,0 +1,8 @@
+var formValidations = {
+    required: {
+      
+    },
+    email: {
+      
+    }
+  }

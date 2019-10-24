@@ -123,18 +123,18 @@
   </div>
   <div class="form-container">
      <h1>Contact form</h1> 
-     <form>
+     <form id="form" method="POST" action="http://www.locastic.com/api/v1/fe-dev">
         <div class="form-container__form--el">
             <label for="Contact Name">Contact Name</label>
-            <input type="text" name="contact">
+            <input type="text" name="contact" data-validate="required">
         </div>
         <div class="form-container__form--el">
             <label for="Email Address">Email Address</label>
-            <input type="email" name="email">
+            <input type="email" name="email" data-validate="email">
         </div>
         <div class="form-container__form--el form-container__message">
             <label for="Message">Message</label>
-            <textarea type="text" name="message"></textarea>
+            <textarea type="text" name="message" data-validate="required"></textarea>
         </div>
         <br>
         <div class="form-container__form--el">
