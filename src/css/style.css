@@ -404,3 +404,7 @@ footer {
 .form-container__form--el {
   margin: 0 auto;
   padding: 0px 20px 20px 20px; }
+
+.err-message {
+  padding: 5px 0;
+  color: red; }
